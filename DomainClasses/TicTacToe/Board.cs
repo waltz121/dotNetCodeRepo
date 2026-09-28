@@ -10,6 +10,8 @@ namespace DomainClasses.TicTacToe
         private Cell[,] _grid;
         private int _size;
 
+        public int Size { get { return _size; } }
+
         public Board(int size)
         {
             _size = size;

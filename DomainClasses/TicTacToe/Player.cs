@@ -8,6 +8,9 @@ namespace DomainClasses.TicTacToe
     {
         String _name;
         Symbol _symbol;
+
+        public string Name { get { return _name; } }
+        public Symbol Symbol { get { return _symbol; } }
         public Player(string name, Symbol symbol)
         {
             if(symbol == Symbol.EMPTY)

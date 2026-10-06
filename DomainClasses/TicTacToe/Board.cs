@@ -73,7 +73,7 @@ namespace DomainClasses.TicTacToe
             {
                 for (int j = 0; j < _size; j++)
                 {
-                    Console.WriteLine($" {_grid[i, j].Symbol.GetDisplayChar()}");
+                    Console.Write($" {_grid[i, j].Symbol.GetDisplayChar()}");
                     if (j < _size - 1) Console.Write("|");
                 }
                 Console.WriteLine();

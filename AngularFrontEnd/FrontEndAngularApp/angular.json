@@ -6,19 +6,9 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "angularfrontend.client": {
+    "FrontEndAngularApp": {
       "projectType": "application",
-      "schematics": {
-        "@schematics/angular:component": {
-          "standalone": false
-        },
-        "@schematics/angular:directive": {
-          "standalone": false
-        },
-        "@schematics/angular:pipe": {
-          "standalone": false
-        }
-      },
+      "schematics": {},
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -66,23 +56,16 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angularfrontend.client:build:production"
+              "buildTarget": "FrontEndAngularApp:build:production"
             },
             "development": {
-              "buildTarget": "angularfrontend.client:build:development"
+              "buildTarget": "FrontEndAngularApp:build:development"
             }
           },
-          "defaultConfiguration": "development",
-          "options": {
-            "proxyConfig": "src/proxy.conf.js",
-            "port": 53435
-          }
+          "defaultConfiguration": "development"
         },
         "test": {
-          "builder": "@angular/build:unit-test",
-          "options": {
-            "karmaConfig": "karma.conf.js"
-          }
+          "builder": "@angular/build:unit-test"
         }
       }
     }

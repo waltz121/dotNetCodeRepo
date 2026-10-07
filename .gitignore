@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Exclude node modules and temporary build caches
+\node_modules
+\.angular
+\dist
+\.vscode

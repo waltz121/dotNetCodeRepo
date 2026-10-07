@@ -1,9 +1,4 @@
 <Solution>
-  <Project Path="AngularFrontEnd/angularfrontend.client/angularfrontend.client.esproj">
-    <Build />
-    <Deploy />
-  </Project>
-  <Project Path="AngularFrontEnd/AngularFrontEnd.Server/AngularFrontEnd.Server.csproj" Id="885e442d-6054-405b-9067-bc665d5ac098" />
   <Project Path="ConsoleMain/ConsoleMain.csproj" Id="d844d420-2232-4865-9b38-7c16703ca07b" />
   <Project Path="DomainClasses/DomainClasses.csproj" Id="3afbfaf6-210c-4ae8-bdf4-e6c187ddd02a" />
   <Project Path="NUnitTests/NUnitTests.csproj" Id="af3258bf-49ba-4eff-bcef-25394364ef41" />
